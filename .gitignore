@@ -1,0 +1,59 @@
+# ── Dependencies ──────────────────────────────
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# ── Lock Files ────────────────────────────────
+**/package-lock.json
+
+# ── Environment & Secrets ─────────────────────
+.env
+.env.local
+.env.*.local
+*.json.local
+
+# Solana keypair files — NEVER commit these
+keypair.json
+wallet.json
+*-keypair.json
+*-wallet.json
+**/*-keypair.json
+**/*-wallet.json
+
+# ── Build Output ──────────────────────────────
+dist/
+build/
+out/
+*.js.map
+**/dist/
+**/build/
+**/out/
+
+# ── Logs ──────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+**/logs/
+
+# ── Solana / Anchor Specific ──────────────────
+.anchor/
+**/.anchor/
+target/
+**/target/
+test-ledger/
+**/test-ledger/
+
+# ── OS & Editor Noise ─────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ── TypeScript ────────────────────────────────
+*.tsbuildinfo
+**/*.tsbuildinfo
