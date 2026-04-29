@@ -57,3 +57,7 @@ Thumbs.db
 # ── TypeScript ────────────────────────────────
 *.tsbuildinfo
 **/*.tsbuildinfo
+
+ 
+# ── Web3 Slides ────────────────────────────────
+Web3-Lecture-Slides.md
